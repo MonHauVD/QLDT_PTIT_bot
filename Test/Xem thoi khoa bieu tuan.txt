@@ -1,0 +1,114 @@
+w-checkvalidallchucnang
+
+
+
+
+w-locdshockytkbuser
+	1. Headers
+	:authority:	qldt.ptit.edu.vn
+	:method:	POST
+	:path:	/api/sch/w-locdshockytkbuser
+	:scheme:	https
+	accept:	application/json, text/plain, */*
+	accept-encoding:	gzip, deflate, br, zstd
+	accept-language:	vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7,fr-FR;q=0.6,fr;q=0.5
+	authorization:	Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6Ii03MzY3Njk3OTcwNTY4MDkxMzY3IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkIyMURDQ04wMzYiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL2FjY2Vzc2NvbnRyb2xzZXJ2aWNlLzIwMTAvMDcvY2xhaW1zL2lkZW50aXR5cHJvdmlkZXIiOiJBU1AuTkVUIElkZW50aXR5IiwiQXNwTmV0LklkZW50aXR5LlNlY3VyaXR5U3RhbXAiOiJia2VFWjtyXSokKTw-QGAlTmZ5NCZSIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiU0lOSFZJRU4iLCJzZXNzaW9uIjoiLTgzNDYwMDc2NDI5MzczOTU2NjEiLCJkdnBjIjoiLTY0MjU4NTU1MDY0OTM3NTA1NTEiLCJuYW1lIjoiVHLhuqduIFZp4buHdCBExaluZyIsInBhc3N0eXBlIjoiMCIsInVjdiI6Ijg0NDg2MzA5MyIsInByaW5jaXBhbCI6IkR1bmdUVi5CMjFDTjAzNkBzdHUucHRpdC5lZHUudm4iLCJ3Y2YiOiIwIiwibmJmIjoxNzI5NTI5OTI0LCJleHAiOjE3Mjk1MzE3MjQsImlzcyI6ImVkdXNvZnQiLCJhdWQiOiJhbGwifQ.C1BmM--LfQ2NPMgyxQjijSEAZlqxsZ-8Gnj5W1rfZSQ
+	content-length:	125
+	content-type:	application/json
+
+	2. Payload
+	{"filter":{"is_tieng_anh":null},"additional":{"paging":{"limit":100,"page":1},"ordering":[{"name":"hoc_ky","order_type":1}]}}
+	
+	3. Response
+	{
+    "data": {
+        "total_items": 10,
+        "total_pages": 1,
+        "hoc_ky": 0,
+        "hoc_ky_theo_ngay_hien_tai": 0,
+        "ds_hoc_ky": [
+            {
+                "hoc_ky": 20241,
+                "ten_hoc_ky": "Học kỳ 1 Năm học 2024-2025",
+                "hiendiensv": 0,
+                "ngay_bat_dau_hk": "12/08/2024",
+                "ngay_ket_thuc_hk": "03/03/2025"
+            },
+            {
+                "hoc_ky": 20233,
+                "ten_hoc_ky": "Học kỳ 3 Năm học 2023-2024",
+                "hiendiensv": 0,
+                "ngay_bat_dau_hk": "01/07/2024",
+                "ngay_ket_thuc_hk": "05/08/2024"
+            },
+            {
+                "hoc_ky": 20232,
+                "ten_hoc_ky": "Học kỳ 2 Năm học 2023-2024",
+                "hiendiensv": 0,
+                "ngay_bat_dau_hk": "15/01/2024",
+                "ngay_ket_thuc_hk": "12/08/2024"
+            },
+            {
+                "hoc_ky": 20231,
+                "ten_hoc_ky": "Học kỳ 1 Năm học 2023-2024",
+                "hiendiensv": 0,
+                "ngay_bat_dau_hk": "14/08/2023",
+                "ngay_ket_thuc_hk": "04/03/2024"
+            },
+            {
+                "hoc_ky": 20223,
+                "ten_hoc_ky": "Học kỳ 3 Năm học 2022-2023",
+                "hiendiensv": 0,
+                "ngay_bat_dau_hk": "03/07/2023",
+                "ngay_ket_thuc_hk": "28/08/2023"
+            },
+            {
+                "hoc_ky": 20222,
+                "ten_hoc_ky": "Học kỳ 2 Năm học 2022-2023",
+                "hiendiensv": 0,
+                "ngay_bat_dau_hk": "30/01/2023",
+                "ngay_ket_thuc_hk": "28/08/2023"
+            },
+            {
+                "hoc_ky": 20221,
+                "ten_hoc_ky": "Học kỳ 1 Năm học 2022-2023",
+                "hiendiensv": 0,
+                "ngay_bat_dau_hk": "15/08/2022",
+                "ngay_ket_thuc_hk": "06/03/2023"
+            },
+            {
+                "hoc_ky": 20213,
+                "ten_hoc_ky": "Học kỳ 3 Năm học 2021-2022",
+                "hiendiensv": 0,
+                "ngay_bat_dau_hk": "04/07/2022",
+                "ngay_ket_thuc_hk": "08/08/2022"
+            },
+            {
+                "hoc_ky": 20212,
+                "ten_hoc_ky": "Học kỳ 2 Năm học 2021-2022",
+                "hiendiensv": 0,
+                "ngay_bat_dau_hk": "07/02/2022",
+                "ngay_ket_thuc_hk": "11/07/2022"
+            },
+            {
+                "hoc_ky": 20211,
+                "ten_hoc_ky": "Học kỳ 1 Năm học 2021-2022",
+                "hiendiensv": 0,
+                "ngay_bat_dau_hk": "16/08/2021",
+                "ngay_ket_thuc_hk": "07/02/2022"
+            }
+        ]
+    },
+    "result": true,
+    "code": 200
+}
+
+***********************************************************************************************
+***	BearerStr: eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6Ii03MzY3Njk3OTcwNTY4MDkxMzY3IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkIyMURDQ04wMzYiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL2FjY2Vzc2NvbnRyb2xzZXJ2aWNlLzIwMTAvMDcvY2xhaW1zL2lkZW50aXR5cHJvdmlkZXIiOiJBU1AuTkVUIElkZW50aXR5IiwiQXNwTmV0LklkZW50aXR5LlNlY3VyaXR5U3RhbXAiOiJia2VFWjtyXSokKTw-QGAlTmZ5NCZSIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiU0lOSFZJRU4iLCJzZXNzaW9uIjoiLTQ4Mjg2NzU0MjcxNjg4NTUyMzUiLCJkdnBjIjoiLTY0MjU4NTU1MDY0OTM3NTA1NTEiLCJuYW1lIjoiVHLhuqduIFZp4buHdCBExaluZyIsInBhc3N0eXBlIjoiMCIsInVjdiI6IjE3MDYxMDE3NiIsInByaW5jaXBhbCI6IkR1bmdUVi5CMjFDTjAzNkBzdHUucHRpdC5lZHUudm4iLCJ3Y2YiOiIwIiwibmJmIjoxNzI5NTMzNTAxLCJleHAiOjE3Mjk1MzUzMDEsImlzcyI6ImVkdXNvZnQiLCJhdWQiOiJhbGwifQ.7PQxAEDb-J3OJ3eY2m2dgHenFcEZPFpNSqbMO-AOqmk	***
+***********************************************************************************************
+
+w-locdsdoituongthoikhoabieu
+
+
+
+w-locdstkbtuanusertheohocky

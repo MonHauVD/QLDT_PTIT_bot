@@ -1,0 +1,2 @@
+1. chromedriver version (130) phải trùng với version Chrome -> Cập nhật Chrome nếu cần
+

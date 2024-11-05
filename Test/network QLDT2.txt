@@ -1,0 +1,36 @@
+1. trang https://qldt.ptit.edu.vn/#/home
+https://qldt.ptit.edu.vn/api/dkmh/w-locsinhvieninfo
+
+2. trang https://qldt.ptit.edu.vn/#/hoadondientu
+https://qldt.ptit.edu.vn/api/rms/w-locdshoadondientu
+
+3. trang https://qldt.ptit.edu.vn/#/tkb-tuan
+https://qldt.ptit.edu.vn/api/sch/w-locdstkbtuanusertheohocky
+
+4. trang https://qldt.ptit.edu.vn/#/tkb-hocky
+
+https://qldt.ptit.edu.vn/api/sch/w-locdstkbhockytheodoituong
+
+5. trang https://qldt.ptit.edu.vn/#/lichthi
+https://qldt.ptit.edu.vn/api/epm/w-locdslichthisvtheohocky
+
+6. trang https://qldt.ptit.edu.vn/#/diem
+https://qldt.ptit.edu.vn/api/srm/w-locdsdiemsinhvien?hien_thi_mon_theo_hkdk=false
+
+7. trang https://qldt.ptit.edu.vn/#/hocphi
+https://qldt.ptit.edu.vn/api/rms/w-locdstonghophocphisv
+
+ private String w_locsinhvieninfo;
+    private String date_w_locsinhvieninfo;
+    private String w_locdshoadondientu;
+    private String date_w_locdshoadondientu;
+    private String w_locdstkbtuanusertheohocky;
+    private String date_w_locdstkbtuanusertheohocky;
+    private String w_locdstkbhockytheodoituong;
+    private String date_w_locdstkbhockytheodoituong;
+    private String w_locdslichthisvtheohocky;
+    private String date_w_locdslichthisvtheohocky;
+    private String w_locdsdiemsinhvien;
+    private String date_w_locdsdiemsinhvien;
+    private String w_locdstonghophocphisv;
+    private String date_w_locdstonghophocphisv;

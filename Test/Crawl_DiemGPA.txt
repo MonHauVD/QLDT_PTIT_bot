@@ -1,0 +1,11 @@
+<a _ngcontent-fux-c68="" aria-expanded="true" class="link-primary text-decoration-none text-primary clickable" style="width: 20px;" id="WEB_DIEM" title="Xem điểm"><span _ngcontent-fux-c68="" class="cust-font fas fa-angle-right" style="width: 12px;"></span> Xem điểm <!----></a>
+
+StringBuilder Ans = new StringBuilder();
+        System.setProperty("webdriver.chrome.driver", "chromedriver-win64\\chromedriver.exe");
+        StringBuilder bearerStr = new StringBuilder();
+        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("--headless"); // Bat che do khong cua so
+        options.addArguments("--disable-gpu");
+        options.addArguments("--no-sandbox");
+        WebDriver driver = new ChromeDriver(options);
+		
