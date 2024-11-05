@@ -42,14 +42,16 @@ public class BotTelegram2 extends TelegramLongPollingBot
     public String getBotUsername()
     {
         // return "QLDT_036564639_bot";
-        return "QLDT_PTIT_bot";
+        // return "QLDT_PTIT_bot";
+        return "qldtptit_bot";
     }
 
     @Override
     public String getBotToken()
     {
         // return "7876220735:AAG_kArH7O20BU0-O1UHh8eNQfkNTto3xQM";
-        return "7815332010:AAGUXZESnv1mNudOpRh340cPNN60Fx6Cgq8";
+        // return "7815332010:AAGUXZESnv1mNudOpRh340cPNN60Fx6Cgq8";
+        return "7876293267:AAGYSeloSjlnt6E7lSbEwCq3Wc9RpJYOeHg";
     }
 
     @Override
